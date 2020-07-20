@@ -276,6 +276,7 @@ void AInfidelCharacter::TurnAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
 	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+
 }
 
 void AInfidelCharacter::LookUpAtRate(float Rate)
